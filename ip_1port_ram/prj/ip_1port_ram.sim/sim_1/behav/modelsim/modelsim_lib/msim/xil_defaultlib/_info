@@ -1,0 +1,163 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/FPGA/z1/ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/modelsim
+T_opt
+!s110 1683525221
+VgV[UKA]YPF_zZH`f[JHOd0
+04 15 4 work tb_ip_1port_ram fast 0
+04 4 4 work glbl fast 0
+=1-d8bbc14fe46f-64588e65-6f-5f68
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vblk_mem_gen_0
+!s10a 1679563051
+Z2 !s110 1683515441
+!i10b 1
+!s100 YhSbzd?VfMB7QYR90lBH:3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ITzaAPa?H1TNog84BkoFLH0
+R0
+w1679563051
+8../../../../ip_1port_ram.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v
+F../../../../ip_1port_ram.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v
+!i122 0
+L0 56 165
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1683515441.000000
+Z7 !s107 ../../../../../sim/tb/tb_ip_1port_ram.v|../../../../../rtl/ram_rw.v|../../../../../rtl/ip_1port_ram.v|../../../../ip_1port_ram.gen/sources_1/ip/ila_0/sim/ila_0.v|../../../../ip_1port_ram.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v|
+Z8 !s90 -incr|-work|xil_defaultlib|../../../../ip_1port_ram.gen/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v|../../../../ip_1port_ram.gen/sources_1/ip/ila_0/sim/ila_0.v|../../../../../rtl/ip_1port_ram.v|../../../../../rtl/ram_rw.v|../../../../../sim/tb/tb_ip_1port_ram.v|
+!i113 0
+Z9 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vglbl
+Z10 !s110 1683525211
+!i10b 1
+!s100 ZHmTNm_h3dd`6mIQLzSUN3
+R3
+IJT>_:<WW6a7KP^k3<8E3=1
+R0
+w1605673889
+8glbl.v
+Fglbl.v
+!i122 5
+L0 6 78
+R4
+R5
+r1
+!s85 0
+31
+Z11 !s108 1683525211.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R9
+R1
+vila_0
+!s10a 1679563103
+R2
+!i10b 1
+!s100 l=??NUi3SRa34mb6RnHdK0
+R3
+IRF^gYY;7<?mYOT?5WI@8?0
+R0
+w1679563103
+8../../../../ip_1port_ram.gen/sources_1/ip/ila_0/sim/ila_0.v
+F../../../../ip_1port_ram.gen/sources_1/ip/ila_0/sim/ila_0.v
+!i122 0
+L0 49 22
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vip_1port_ram
+!s10a 1683509268
+R2
+!i10b 1
+!s100 <bGkV7Do^nIk3Gi`5@YNZ0
+R3
+IaPzLmMYH3JJ@JE^C?885c1
+R0
+w1683509268
+8../../../../../rtl/ip_1port_ram.v
+F../../../../../rtl/ip_1port_ram.v
+!i122 0
+L0 23 39
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vram_rw
+R10
+!i10b 1
+!s100 YNLb4XhaR^Qc6=P;WAFmY2
+R3
+I;GNP;gHP<1UYT271a>YKM1
+R0
+w1683524685
+8../../../../../rtl/ram_rw.v
+F../../../../../rtl/ram_rw.v
+!i122 4
+L0 23 74
+R4
+R5
+r1
+!s85 0
+31
+R11
+R7
+R8
+!i113 0
+R9
+R1
+vtb_ip_1port_ram
+!s10a 1679563152
+R2
+!i10b 1
+!s100 8QNDm27YZILM<F3KV0@nj2
+R3
+Ic47g99LPlYn8Oo<:HiBfI1
+R0
+w1679563152
+8../../../../../sim/tb/tb_ip_1port_ram.v
+F../../../../../sim/tb/tb_ip_1port_ram.v
+!i122 0
+L0 3 26
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1

@@ -1,0 +1,309 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 3924
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Sep 18 12:07:40 GMT+08:00 2023
+Time zone: 	GMT+08:00 (GMT+08:00)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 20
+
+Screen size: 2560x1440
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Administrator
+User home directory: C:/Users/Administrator
+User working directory: D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.2
+RDI_DATADIR: C:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/Administrator/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/vivado.log
+Vivado journal file location: 	D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/vivado.jou
+Engine tmp dir: 	D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/.Xil/Vivado-3924-CAIJIETAO
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.2
+XILINX_SDK: C:/Xilinx/Vitis/2020.2
+XILINX_VITIS: C:/Xilinx/Vitis/2020.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	212 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,135 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 87 MB (+88789kb) [00:00:04]
+// [Engine Memory]: 1,127 MB (+1030248kb) [00:00:04]
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: D:\Develop\ZYNQ_A_New\4_Source_Code\1_FPGA_Design\ZYNQ_7020_FPGA\16_ip_1port_ram\prj\ip_1port_ram.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 94 MB (+2860kb) [00:00:07]
+// [GUI Memory]: 128 MB (+30165kb) [00:00:07]
+// WARNING: HEventQueue.dispatchEvent() is taking  1422 ms.
+// Tcl Message: open_project D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,136 MB. GUI used memory: 67 MB. Current time: 9/18/23, 12:07:40 PM GMT+08:00
+// Project name: ip_1port_ram; location: D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj; part: xc7z020clg400-2
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u
+// [Engine Memory]: 1,207 MB (+24458kb) [00:00:13]
+// [GUI Memory]: 145 MB (+11793kb) [00:00:15]
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Set Up Debug]", 18, false); // u
+// bz (cr):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7z020clg400-2 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,695 MB. GUI used memory: 84 MB. Current time: 9/18/23, 12:08:00 PM GMT+08:00
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,695 MB. GUI used memory: 83 MB. Current time: 9/18/23, 12:08:01 PM GMT+08:00
+// [Engine Memory]: 1,695 MB (+448967kb) [00:00:30]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// TclEventType: DESIGN_NEW
+// [GUI Memory]: 154 MB (+1147kb) [00:00:31]
+// [GUI Memory]: 163 MB (+1537kb) [00:00:31]
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  1120 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7z020clg400-2 INFO: [Project 1-454] Reading design checkpoint 'd:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'blk_mem_gen_0' INFO: [Project 1-454] Reading design checkpoint 'd:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.gen/sources_1/ip/ila_0/ila_0.dcp' for cell 'u_ram_rw/u_ila_0' 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1510.270 ; gain = 0.000 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 86 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2020.2 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Chipscope 16-324] Core: u_ram_rw/u_ila_0 UUID: c59f3048-3381-55dd-b9c6-636149436a35  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1638.094 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 48 instances were transformed.   CFGLUT5 => CFGLUT5 (SRL16E, SRLC32E): 48 instances  
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 1789.176 ; gain = 560.172 
+// Run Command: PAResourceCommand.PACommandNames_DEBUG_WIZARD
+// N (cr): Set Up Debug: addNotify
+// Elapsed time: 13 seconds
+dismissDialog("Open Synthesized Design"); // bz
+// [Engine Memory]: 1,818 MB (+40095kb) [00:00:34]
+// bz (N):  Filtering Net and Tracing Clock Domain : addNotify
+selectButton("NEXT", "Next >"); // JButton
+dismissDialog("Filtering Net and Tracing Clock Domain"); // bz
+// RouteApi::initDelayMediator elapsed time: 4.9s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+selectButton((HResource) null, "Nets to Debug_add"); // x: TRUE
+// [Engine Memory]: 2,141 MB (+243557kb) [00:00:41]
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[ip_1port_ram, Nets (82)]", 1); // bC
+// [GUI Memory]: 178 MB (+7748kb) [00:00:50]
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[ip_1port_ram, Nets (82), ram_en]", 7, false); // bC
+selectButton((HResource) null, "Nets to Debug_add"); // x: TRUE
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[ip_1port_ram, Nets (82), ram_we]", 8, false); // bC
+selectButton((HResource) null, "Nets to Debug_add"); // x: TRUE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,181 MB. GUI used memory: 121 MB. Current time: 9/18/23, 12:08:30 PM GMT+08:00
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[ip_1port_ram, Nets (82), ram_addr]", 2, true); // bC - Node
+selectButton((HResource) null, "Nets to Debug_add"); // x: TRUE
+expandTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "ram_addr (5) ; sys_clk_IBUF_BUFG ; FDCE ; Data and Trigger", 0); // aq
+collapseTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "ram_addr (5) ; sys_clk_IBUF_BUFG ; FDCE ; Data and Trigger", 0); // aq
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[ip_1port_ram, Nets (82), ram_rd_data]", 3, true); // bC - Node
+selectButton((HResource) null, "Nets to Debug_add"); // x: TRUE
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[ip_1port_ram, Nets (82), ram_wr_data]", 4, true); // bC - Node
+selectButton((HResource) null, "Nets to Debug_add"); // x: TRUE
+// Elapsed time: 22 seconds
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[ip_1port_ram, u_ram_rw (ram_rw)]", 17); // bC
+expandTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[ip_1port_ram, u_ram_rw (ram_rw), Nets (106)]", 18); // bC
+selectTree(PAResourceItoN.NetlistTreeView_NETLIST_TREE, "[ip_1port_ram, u_ram_rw (ram_rw), Nets (106), rw_cnt]", 23, true); // bC - Node
+selectButton((HResource) null, "Nets to Debug_add"); // x: TRUE
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+selectButton("FINISH", "Finish"); // JButton
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_CORE_ADD
+// TclEventType: DEBUG_GRAPH_STALE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_core u_ila_0_0 ila 
+// Tcl Message: set_property C_DATA_DEPTH 1024 [get_debug_cores u_ila_0_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// bz (N):  Set Up Debug : addNotify
+// Tcl Message: set_property C_TRIGIN_EN false [get_debug_cores u_ila_0_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0_0/clk [get_nets [list sys_clk_IBUF_BUFG ]] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 6 [get_debug_ports u_ila_0_0/probe0] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0_0/probe0] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0_0/probe0 [get_nets [list {u_ram_rw/rw_cnt[0]} {u_ram_rw/rw_cnt[1]} {u_ram_rw/rw_cnt[2]} {u_ram_rw/rw_cnt[3]} {u_ram_rw/rw_cnt[4]} {u_ram_rw/rw_cnt[5]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0_0 probe 
+// Tcl Message: set_property port_width 8 [get_debug_ports u_ila_0_0/probe1] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0_0/probe1] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0_0/probe1 [get_nets [list {ram_wr_data[0]} {ram_wr_data[1]} {ram_wr_data[2]} {ram_wr_data[3]} {ram_wr_data[4]} {ram_wr_data[5]} {ram_wr_data[6]} {ram_wr_data[7]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0_0 probe 
+// Tcl Message: set_property port_width 8 [get_debug_ports u_ila_0_0/probe2] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0_0/probe2] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0_0/probe2 [get_nets [list {ram_rd_data[0]} {ram_rd_data[1]} {ram_rd_data[2]} {ram_rd_data[3]} {ram_rd_data[4]} {ram_rd_data[5]} {ram_rd_data[6]} {ram_rd_data[7]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0_0 probe 
+// Tcl Message: set_property port_width 5 [get_debug_ports u_ila_0_0/probe3] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0_0/probe3] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0_0/probe3 [get_nets [list {ram_addr[0]} {ram_addr[1]} {ram_addr[2]} {ram_addr[3]} {ram_addr[4]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0_0/probe4] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0_0/probe4] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0_0/probe4 [get_nets [list ram_en ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0_0/probe5] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0_0/probe5] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,182 MB. GUI used memory: 121 MB. Current time: 9/18/23, 12:09:29 PM GMT+08:00
+// Tcl Message: connect_debug_port u_ila_0_0/probe5 [get_nets [list ram_we ]] 
+// TclEventType: DEBUG_GRAPH_STALE
+// Schematic: addNotify
+dismissDialog("Set Up Debug"); // bz
+closeView(PAResourceOtoP.PAViews_DEVICE, "Device"); // U
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Set Up Debug"); // N
+// Run Command: PAResourceCommand.PACommandNames_SAVE_DESIGN
+// A (cr): Out of Date Design: addNotify
+// Elapsed time: 16 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// a (cr): Save Constraints: addNotify
+dismissDialog("Out of Date Design"); // A
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// bz (cr):  Save Constraints : addNotify
+// Tcl Message: set_property target_constrs_file D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.srcs/constrs_1/new/ip_1port_ram.xdc [current_fileset -constrset] 
+dismissDialog("Save Constraints"); // a
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_SAVE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: save_constraints -force 
+// 'h' command handler elapsed time: 6 seconds
+dismissDialog("Save Constraints"); // bz
+// HMemoryUtils.trashcanNow. Engine heap size: 2,190 MB. GUI used memory: 116 MB. Current time: 9/18/23, 12:39:31 PM GMT+08:00

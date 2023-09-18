@@ -1,0 +1,414 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Sep 18 11:08:24 2023
+# Process ID: 14592
+# Current directory: D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12592 D:\Develop\ZYNQ_A_New\4_Source_Code\1_FPGA_Design\ZYNQ_7020_FPGA\16_ip_1port_ram\prj\ip_1port_ram.xpr
+# Log file: D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/vivado.log
+# Journal file: D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj'
+INFO: [Project 1-313] Project file moved from 'E:/FPGA/z2/ip_1port_ram/prj' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1121.570 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_ip_1port_ram' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_ip_1port_ram_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0_blk_mem_gen_prim_wrapper
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0_blk_mem_gen_v8_4_4
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0_blk_mem_gen_v8_4_4_synth
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.gen/sources_1/ip/ila_0/ila_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_0
+INFO: [VRFC 10-311] analyzing module ila_0_ila_v6_2_11_ila
+INFO: [VRFC 10-311] analyzing module ila_0_ila_v6_2_11_ila_cap_addrgen
+INFO: [VRFC 10-311] analyzing module ila_0_ila_v6_2_11_ila_cap_ctrl_legacy
+INFO: [VRFC 10-311] analyzing module ila_0_ila_v6_2_11_ila_cap_sample_counter
+INFO: [VRFC 10-311] analyzing module ila_0_ila_v6_2_11_ila_cap_window_counter
+INFO: [VRFC 10-311] analyzing module ila_0_ila_v6_2_11_ila_core
+INFO: [VRFC 10-311] analyzing module ila_0_ila_v6_2_11_ila_register
+INFO: [VRFC 10-311] analyzing module ila_0_ila_v6_2_11_ila_reset_ctrl
+INFO: [VRFC 10-311] analyzing module ila_0_ila_v6_2_11_ila_trace_memory
+INFO: [VRFC 10-311] analyzing module ila_0_ila_v6_2_11_ila_trig_match
+INFO: [VRFC 10-311] analyzing module ila_0_ila_v6_2_11_ila_trigger
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA_10
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA_12
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA_3
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA_5
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA_7
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA__parameterized0
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA__parameterized0_39
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA__parameterized0_47
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA_slice
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA_slice_11
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA_slice_13
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA_slice_4
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA_slice_6
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA_slice_8
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA_slice__parameterized0
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA_slice__parameterized0_40
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA_slice__parameterized0_48
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA_slice__parameterized1
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA_slice__parameterized1_41
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_all_typeA_slice__parameterized1_49
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_allx_typeA
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_allx_typeA__parameterized0
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_allx_typeA__parameterized0_9
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_allx_typeA__parameterized1
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_allx_typeA__parameterized2
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_allx_typeA__parameterized2_2
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_allx_typeA_nodelay
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_allx_typeA_nodelay_38
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_allx_typeA_nodelay_46
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_async_edge_xfer
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_async_edge_xfer_14
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_async_edge_xfer_15
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_async_edge_xfer_16
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_cfglut4
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_cfglut4_42
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_cfglut5
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_cfglut5_36
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_cfglut5_43
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_cfglut6
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_cfglut6_44
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_cfglut6__parameterized0
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_cfglut7
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_cfglut7_35
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_generic_memrd
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_match
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_match__parameterized0
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_match__parameterized0_0
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_match__parameterized1
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_match__parameterized2
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_match__parameterized2_1
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_match_nodelay
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_match_nodelay_37
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_match_nodelay_45
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_rising_edge_detection
+INFO: [VRFC 10-311] analyzing module ila_0_ltlib_v1_0_0_rising_edge_detection_17
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg__parameterized19
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg__parameterized20
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg__parameterized21
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg__parameterized22
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg__parameterized34
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg__parameterized35
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg__parameterized36
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg__parameterized37
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg__parameterized38
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg__parameterized39
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg__parameterized40
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg__parameterized41
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg__parameterized42
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg__parameterized43
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg__parameterized44
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg__parameterized45
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg__parameterized47
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg__parameterized49
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg__parameterized52
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_ctl
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_ctl_21
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_ctl_22
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_ctl_23
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_ctl_24
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_ctl_27
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_ctl_29
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_ctl_30
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_ctl_31
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_ctl_32
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_ctl_33
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_ctl__parameterized0
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_ctl__parameterized1
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_ctl__parameterized1_25
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_ctl__parameterized1_28
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_p2s
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_p2s__parameterized0
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_p2s__parameterized1
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_p2s__parameterized2
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_p2s__parameterized3
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_p2s__parameterized4
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_p2s__parameterized5
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_stat
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_stat_18
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_stat_19
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_stat_20
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_stat_26
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_stat_34
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_stream
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_reg_stream__parameterized0
+INFO: [VRFC 10-311] analyzing module ila_0_xsdbs_v1_0_2_xsdbs
+INFO: [VRFC 10-311] analyzing module ila_0_blk_mem_gen_v8_4_4
+INFO: [VRFC 10-311] analyzing module ila_0_blk_mem_gen_v8_4_4_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module ila_0_blk_mem_gen_v8_4_4_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module ila_0_blk_mem_gen_v8_4_4_blk_mem_gen_prim_wrapper
+INFO: [VRFC 10-311] analyzing module ila_0_blk_mem_gen_v8_4_4_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module ila_0_blk_mem_gen_v8_4_4_synth
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/rtl/ip_1port_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ip_1port_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/rtl/ram_rw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_rw
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/sim/tb/tb_ip_1port_ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_ip_1port_ram
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'glbl' [D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/xsim/glbl.v:6]
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1121.570 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/xsim'
+"xelab -wto 1fc61c8bbdf248179ff435a9bb191c75 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_ip_1port_ram_behav xil_defaultlib.tb_ip_1port_ram xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 1fc61c8bbdf248179ff435a9bb191c75 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_ip_1port_ram_behav xil_defaultlib.tb_ip_1port_ram xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.GND
+Compiling module unisims_ver.FDRE_default
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module unisims_ver.RB36_INTERNAL_VLOG(DOA_REG=1,DOB...
+Compiling module unisims_ver.RAMB36E1(DOA_REG=1,DOB_REG=1,REA...
+Compiling module xil_defaultlib.ila_0_blk_mem_gen_v8_4_4
+Compiling module unisims_ver.SRL16E_default
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3
+Compiling module unisims_ver.SRLC32E_default
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.SRLC16E_default
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.CFGLUT5_default
+Compiling module unisims_ver.MUXF7
+Compiling module unisims_ver.FDSE_default
+Compiling module xil_defaultlib.ila_0
+Compiling module xil_defaultlib.ram_rw
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(READ_WIDTH_A=...
+Compiling module unisims_ver.RAMB18E1(READ_WIDTH_A=18,READ_WI...
+Compiling module xil_defaultlib.blk_mem_gen_0
+Compiling module xil_defaultlib.ip_1port_ram
+Compiling module xil_defaultlib.tb_ip_1port_ram
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_ip_1port_ram_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/xsim/xsim.dir/tb_ip_1port_ram_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Sep 18 11:09:24 2023...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1121.570 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_ip_1port_ram_behav -key {Behavioral:sim_1:Functional:tb_ip_1port_ram} -tclbatch {tb_ip_1port_ram.tcl} -view {D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/tb_ip_1port_ram_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+open_wave_config D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/tb_ip_1port_ram_behav.wcfg
+source tb_ip_1port_ram.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_ip_1port_ram_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:15 . Memory (MB): peak = 1132.148 ; gain = 10.578
+run all
+run: Time (s): cpu = 00:00:02 ; elapsed = 00:00:20 . Memory (MB): peak = 1144.840 ; gain = 12.691
+run 20 us
+relaunch_sim
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_ip_1port_ram' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_ip_1port_ram_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/xsim'
+"xelab -wto 1fc61c8bbdf248179ff435a9bb191c75 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_ip_1port_ram_behav xil_defaultlib.tb_ip_1port_ram xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 1fc61c8bbdf248179ff435a9bb191c75 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_ip_1port_ram_behav xil_defaultlib.tb_ip_1port_ram xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1312.527 ; gain = 23.637
+run all
+set_property target_simulator ModelSim [current_project]
+set_property compxlib.modelsim_compiled_library_dir C:/modeltech64_10.1c/vivado2020_2_lib [current_project]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Develop\ZYNQ_A_New\4_Source_Code\1_FPGA_Design\ZYNQ_7020_FPGA\16_ip_1port_ram\rtl\ram_rw.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Develop\ZYNQ_A_New\4_Source_Code\1_FPGA_Design\ZYNQ_7020_FPGA\16_ip_1port_ram\rtl\ip_1port_ram.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -install_path C:/modeltech64_10.1c/win64 -gcc_install_path C:/modeltech64_10.1c/vivado2020_2_lib
+Command: launch_simulation -install_path C:/modeltech64_10.1c/win64 -gcc_install_path C:/modeltech64_10.1c/vivado2020_2_lib
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'ModelSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/modelsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-50] Using simulator executables from 'C:/modeltech64_10.1c/win64/vsim.exe'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'C:/modeltech64_10.1c/vivado2020_2_lib/modelsim.ini' copied to run dir:'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_ip_1port_ram' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/modelsim'
+Reading C:/modeltech64_10.1c/tcl/vsim/pref.tcl 
+
+# 10.1c
+
+# do {tb_ip_1port_ram_compile.do} 
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# 
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# 
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# 
+# Modifying modelsim.ini
+# ** Error: Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# ** Error: (vlog-42) Unsupported ModelSim library format for "D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/modelsim/modelsim_lib/msim". (Format: 4)
+# 
+# ** Error: Verilog Compiler exiting
+# child process exited abnormally
+# Error in macro ./tb_ip_1port_ram_compile.do line 22
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# ** Error: (vlog-42) Unsupported ModelSim library format for "D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/modelsim/modelsim_lib/msim". (Format: 4)
+# 
+# ** Error: Verilog Compiler exiting
+# child process exited abnormally
+#     while executing
+# "exec <nul: {C:\modeltech64_10.1c\win64\vlog.EXE} -incr -work xil_defaultlib ../../../../ip_1port_ram.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_..."
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 exec $redir $new [lrange $args 1 end]"
+#     (procedure "::unknown" line 40)
+#     invoked from within
+# "C:\\modeltech64_10.1c\\win64\\vlog  -incr -work xil_defaultlib  \
+# "../../../../ip_1port_ram.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.v..."
+ModelSim> INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run_program: Time (s): cpu = 00:00:07 ; elapsed = 00:18:40 . Memory (MB): peak = 1574.922 ; gain = 0.000
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:18:40 . Memory (MB): peak = 1574.922 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+launch_simulation -install_path C:/modeltech64_10.1c/win64 -gcc_install_path C:/modeltech64_10.1c/vivado2020_2_lib
+Command: launch_simulation -install_path C:/modeltech64_10.1c/win64 -gcc_install_path C:/modeltech64_10.1c/vivado2020_2_lib
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'ModelSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/modelsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-ModelSim-47] Finding simulator installation...
+INFO: [USF-ModelSim-50] Using simulator executables from 'C:/modeltech64_10.1c/win64/vsim.exe'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-modelsim-7] Finding pre-compiled libraries...
+INFO: [USF-modelsim-11] File 'C:/modeltech64_10.1c/vivado2020_2_lib/modelsim.ini' copied to run dir:'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/modelsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_ip_1port_ram' in fileset 'sim_1'...
+INFO: [USF-ModelSim-107] Finding global include files...
+INFO: [USF-ModelSim-108] Finding include directories and verilog header directory paths...
+INFO: [USF-ModelSim-109] Fetching design files from 'sim_1'...
+INFO: [USF-ModelSim-2] ModelSim::Compile design
+INFO: [USF-ModelSim-15] Creating automatic 'do' files...
+INFO: [USF-ModelSim-69] Executing 'COMPILE and ANALYZE' step in 'D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/modelsim'
+Reading C:/modeltech64_10.1c/tcl/vsim/pref.tcl 
+
+# 10.1c
+
+# do {tb_ip_1port_ram_compile.do} 
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/work".
+# 
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim".
+# 
+# ** Warning: (vlib-34) Library already exists at "modelsim_lib/msim/xil_defaultlib".
+# 
+# Modifying modelsim.ini
+# ** Error: Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# ** Error: (vlog-42) Unsupported ModelSim library format for "D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/modelsim/modelsim_lib/msim". (Format: 4)
+# 
+# ** Error: Verilog Compiler exiting
+# child process exited abnormally
+# Error in macro ./tb_ip_1port_ram_compile.do line 22
+# Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+# ** Error: (vlog-42) Unsupported ModelSim library format for "D:/Develop/ZYNQ_A_New/4_Source_Code/1_FPGA_Design/ZYNQ_7020_FPGA/16_ip_1port_ram/prj/ip_1port_ram.sim/sim_1/behav/modelsim/modelsim_lib/msim". (Format: 4)
+# 
+# ** Error: Verilog Compiler exiting
+# child process exited abnormally
+#     while executing
+# "exec <nul: {C:\modeltech64_10.1c\win64\vlog.EXE} -incr -work xil_defaultlib ../../../../ip_1port_ram.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_..."
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 exec $redir $new [lrange $args 1 end]"
+#     (procedure "::unknown" line 40)
+#     invoked from within
+# "C:\\modeltech64_10.1c\\win64\\vlog  -incr -work xil_defaultlib  \
+# "../../../../ip_1port_ram.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_sim_netlist.v..."
+ModelSim> INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1574.922 ; gain = 0.000
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'compile' step aborted
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 1574.922 ; gain = 0.000
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 18 11:34:55 2023...

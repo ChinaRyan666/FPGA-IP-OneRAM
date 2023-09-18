@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:E:/FPGA/z2/ip_1port_ram/prj/ip_1port_ram.srcs/constrs_1/new/ip_1port_ram.xdc rfile:../../../ip_1port_ram.srcs/constrs_1/new/ip_1port_ram.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN U18 IOSTANDARD LVCMOS33} [get_ports sys_clk]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict {PACKAGE_PIN N16 IOSTANDARD LVCMOS33} [get_ports sys_rst_n]
